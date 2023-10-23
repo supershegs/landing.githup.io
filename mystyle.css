@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+h1{
+    font-family: "fantasy";
+    font-size: 3em;
+    width: 400px;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;;
+    color: black;
+    box-shadow: 4px 4px 5px #888888;
+    /* margin-top: 10px; */
+}
+.container {
+    
+    /*flex-direction: row; | row-reverse | column | column-reverse; */
+    display: flex;  /* or inline-flex */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img{
+    width: 440px;
+    height: 300px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+
